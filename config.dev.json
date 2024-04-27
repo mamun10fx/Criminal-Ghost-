@@ -17,7 +17,8 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "100063965154276",
+    "100048735441696",
+    "100084471847645",
     ""
   ],
   "whiteListMode": {
@@ -25,11 +26,11 @@
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "𝗥𝗢𝗦𝗘 𝗖𝗛𝗔𝗧𝗕𝗢𝗧",
-  "prefix": "&",
+  "nickNameBot": "╚═★ 𝐶𝑟𝑖𝑚𝑖𝑛𝑎𝑙 𝑔ℎ𝑜𝑠𝑡 ★═╝",
+  "prefix": "!",
   "database": {
     "type": "sqlite",
-    "uriMongodb": "",
+    "uriMongodb": "mongodb+srv://mamun10fx:i4ti3mBqyTynQv5@mamun10fx.lycoh8y.mongodb.net/?retryWrites=true&w=majority&appName=mamun10fx",
     "autoSyncWhenStart": false,
     "autoRefreshThreadInfoFirstTime": true,
     "notes": "(1) type selects 'json' or 'sqlite' or 'mongodb'. If you choose mongodb, enter uri connect mongodb in the uriMongodb section, instructions to get uri connect mongodb at: https://youtu.be/z1f9urHW5xY. I recommend using 'mongodb' or 'sqlite', json is not recommended because it is not stable. (2) when you set autoSyncWhenStart to true, the bot will automatically synchronize the data in the database when starting the bot, this will make the bot start slower. (3) when you set autoRefreshThreadInfoFirstTime to true, the bot will automatically refresh the thread information when get first message from the thread since starting the bot"
@@ -133,7 +134,7 @@
     "updatePresence": true,
     "listenTyping": true,
     "logLevel": "error",
-    "selfListen": false,
+    "selfListen": true,
     "selfListenEvent": true,
     "autoMarkDelivery": false,
     "autoReconnect": false,
